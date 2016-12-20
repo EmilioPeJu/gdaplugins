@@ -7,4 +7,6 @@ from iocbuilder.modules.asyn import AsynIP, AsynPort
 class gdaPlugins(Xml):
     """This plugin instantiates a standard set of plugins for use by GDA:"""
     TemplateFile = 'gdaPlugins.xml'
+    
 gdaPlugins.ArgInfo.descriptions["CAM"] = Ident("Areadetecor camera to connect to", ADCore)
+    
